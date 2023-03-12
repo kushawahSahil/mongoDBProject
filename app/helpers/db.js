@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 //Database connectivity
-mongoose.connect('mongodb://um75qnk7khhftft1nnua:44L5rqM45Gke66Xj4dcB@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/bc4lu297ckwqepu?replicaSet=rs0')
+mongoose.connect('mongodb://uxwu6yorypg72pvrj7hh:yqyntzaogrcr4YiltwFr@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/b8lotx2u1psv7qf?replicaSet=rs0')
     .then(() => console.log('connect to mongoDB...'))
     .catch(err => console.error('could not connect to mongoDB...', err));
 
