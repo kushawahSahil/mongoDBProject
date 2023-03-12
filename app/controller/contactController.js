@@ -193,7 +193,7 @@ exports.viewContact = async (req, res) => {
     try {
         const user = await contactWithModel.find();
         if (user) {
-            res.render('Contact', {
+            res.render('contact', {
                 values: user
             });
         }
